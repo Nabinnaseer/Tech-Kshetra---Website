@@ -1,0 +1,664 @@
+<!doctype html>
+<!--[if IE 9]> <html class="no-js ie9 fixed-layout" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js " lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- Site Meta -->
+    <title>Tech Kshetra</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/Techlogo2.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/Techlogo2.png">
+
+	<!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet"> 
+     <link href="https://fonts.googleapis.com/css?family=Knewave&display=swap" rel="stylesheet">
+	
+    <!-- Custom & Default Styles -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="C:\Users\USER\Desktop\Used Templates\Imperial\css\style.css"> -->
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+	<![endif]-->
+   <style type="text/css">
+
+    .col-sm-4
+    {
+      position: relative;
+      justify-content: center;
+      text-align: center;
+    }
+    .col-sm-4 .face
+    {
+      height: 120px;
+      transition: 0.5s;
+    } 
+       .col-sm-4 .face.face1
+{
+  position: relative;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(60px);
+  z-index: 1;
+}
+.col-sm-4:hover .face.face1
+{
+  background-color: #1478ce;
+  transform: translateY(0);
+}
+.col-sm-4 .face.face1 .content
+{
+  opacity: 0.2;
+  transition: 0.5s;
+}
+.col-sm-4 .face.face1 .content h1
+{
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.col-sm-4 .face.face2
+{
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  overflow: hidden;
+  transform: translateY(-60px);
+  box-sizing: border-box;
+  padding-top: 20px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+}
+.col-sm-4:hover .face.face2
+{
+  transform: translateY(0);
+}
+.col-sm-4 .face.face2 .content p
+{
+  margin: 7px;
+  padding: 0;
+}
+.col-sm-4 .face.face2 .content a
+{
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border:1px solid black;
+  color: white;
+  background-color: black;
+  width: 50%
+}
+.col-sm-4 .face.face2 .content a:hover
+{
+  background-color: #1478ce;;
+  color:white; 
+  border:1px solid #1478ce;;
+}
+   </style>
+</head>
+<body>  
+
+     <!-- <div id="preloader"></div> -->
+     <div id="loading"></div> 
+
+
+
+    <div id="wrapper">
+        <!-- BEGIN # MODAL LOGIN -->
+        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Begin # DIV Form -->
+                    <div id="div-forms">
+                        <form id="login-form">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span class="flaticon-add" aria-hidden="true"></span>
+                            </button>
+                            <div class="modal-body">
+                                <input class="form-control" type="text" placeholder="What you are looking for?" required>
+                            </div>
+                        </form><!-- End # Login Form -->
+                    </div><!-- End # DIV Form -->
+                </div>
+            </div>
+        </div>
+        <!-- END # MODAL LOGIN -->
+
+        <header class="header">
+            <div class="topbar clearfix">
+                <div class="container">
+                    <div class="row-fluid">
+                        <div class="col-md-6 col-sm-6 text-left">
+                            <p>
+                                <strong><i class="fa fa-phone" style="color: #1478ce;"></i></strong> 0471-4850377 &nbsp;&nbsp;
+                                <strong><i class="fa fa-envelope" style="color: #1478ce;"></i></strong> <a href="mailto:#">infotechkshetra@gmail.com</a>
+                            </p>
+                        </div><!-- end left -->
+                        <div class="col-md-6 col-sm-6 hidden-xs text-right">
+                            <div class="social">
+                                <a class="facebook" href="https://www.facebook.com/techkshetraofficial/" target="_blank" data-tooltip="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>              
+                                <a class="twitter" href="https://www.instagram.com/tech__kshetra/" 
+                                target="_blank" data-tooltip="tooltip" data-placement="bottom" title="instagram"><i class="fa fa-instagram"></i></a>
+                                <a class="google" href="#" data-tooltip="tooltip" data-placement="bottom" title="Google Plus"><i class="fa fa-google-plus"></i></a>
+                                <a class="linkedin" href="#" data-tooltip="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                                <a class="pinterest" href="#" data-tooltip="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+                            </div><!-- end social -->
+                        </div><!-- end left -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end topbar -->
+
+            <div class="container">
+                <nav class="navbar navbar-default yamm">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="logo-normal">
+                            <a class="navbar-brand" href="index.html"><img src="images/Techlogo1.png" style="width:120px;" alt=""></a>
+                        </div>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Aboutus.html">About Us</a></li>
+                             <li><a href="Services.html">Services</a></li>
+                            <li><a href="Career.html">Career</a></li>
+                             <li class="dropdown hassubmenu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Training <span class="fa fa-angle-down"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="Tech-Mech.html"style="color: #1478ce;"><b>Mechanical</b></a></li>
+                                    <li><a href="Tech-Civil.html"style="color: #1478ce;"><b>Civil</b></a></li>
+                                    <li><a href="Tech-EEE.html"style="color: #1478ce;"><b>Electrical</b></a></li>
+                                    <li><a href="Tech-CS.html"style="color: #1478ce;"><b>Computer Science</b></a></li>
+                                    <li><a href="Tech-Management.html"style="color: #1478ce;"><b>Management</b></a></li>
+                                    <li><a href="Tech-Others.html"style="color: #1478ce;"><b>Other</b></a></li>
+                                    <li><b style="padding-left: 30px;"><i>Master Programs</i></b></li>
+                                    <li><a href="master-ai.html"style="color: #1478ce;"><b>Artificial Intelligence</b></a></li>
+                                    <li><a href="master-ds.html"style="color: #1478ce;"><b>Data Science</b></a></li>
+                                    <li><a href="master-ml.html"style="color: #1478ce;"><b>Machine Learning</b></a></li>
+                                </ul>
+                            </li>
+                           <!--   <li class="dropdown hassubmenu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Master Programs <span class="fa fa-angle-down"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="master-ai.html"style="color: #1478ce;"><b>Artificial Intelligence</b></a></li>
+                                    <li><a href="master-ds.html"style="color: #1478ce;"><b>Data Science</b></a></li>
+                                </ul>
+                            </li> -->
+                            <li><a href="Gallery2.html">Gallery</a></li>
+                            <li><a href="page-contact.html">Contact</a></li>
+                            <li class="iconitem"><a href="#" data-toggle="modal" data-target="#login-modal"><i class="fa fa-search"></i></a></li>
+                        </ul>
+                    </div>
+                </nav><!-- end navbar -->
+            </div><!-- end container -->
+        </header>
+
+        <section id="home" class="video-section js-height-full">
+            <div class="overlay"></div>
+
+            <div class="home-text-wrapper relative container">
+                <div class="home-message">
+                    <p><span style="color: #1478ce;">T</span>ECH <span style="color: #1478ce;">K</span>SHETRA</p>
+                    <small style="color: #fff;">Own your future by learning skills.</small>
+                    <div class="btn-wrapper">
+                        <div class="text-center">
+                            <a href="#about" class="btn btn-primary wow rollIn">Get Started</a> <!-- &nbsp;&nbsp;&nbsp;<a href="#" class="btn btn-default wow slideInRight">Buy Now</a> -->
+                        </div>
+                    </div><!-- end row -->
+                </div>
+            </div>
+
+            <div class="slider-bottom">
+                <span>Explore <i class="fa fa-angle-down"></i></span>
+            </div>
+        </section>
+
+        <!-- From Imperial Template -->
+
+  <section id="about">
+    <div class="container wow slideInUp">
+        <div class="row" style="box-shadow: 1px 1px 5px 1px #333; padding: 10px;">
+            <div class="col-md-6">
+                <img src="images/about-us.jpeg" style="width: 100%;">
+            </div>
+            <div class="col-md-6">
+               <div class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="400ms">
+                    <h2 style="text-align: center;"><b>About Us</b></h2>
+                <div class="section-title-divider wow slideInRight" ></div>
+                <p>Tech Kshetra has been a leading engineering service provider, offers a wide range of innovative services, engineering solutions, and professional training in the fields of : </p>
+                <ul>
+                    <li>MEP</li>
+                    <li>Quantity Survey and Cost Estimation</li>
+                    <li>NDT</li>
+                    <li>QA/QC</li>
+                    <li>Oil and Gas Power</li>
+                    <li>Automobile Engineering</li>
+                    <li>Software Development and other major technical industries in the disciplines of Mechanical</li>
+                    <li>Civil</li>
+                    <li>Aviation and Airport Management</li>
+                    <li>Computer Science/IT, etc.</li>
+                </ul>
+                
+                <!-- <hr class="invis">
+                <hr class="invis"> -->
+                <!-- <p>Tech Kshetra offers a unique opportunity to face challenges through enriched learning, academic excellence, professional training and corporate exposure. In Tech Kshetra engineering wing, top-class trainers deliver internationally recognized qualifications in demand by industries worldwide.</p>            -->
+               </div>
+            </div>
+        </div>
+    </div>
+
+
+
+   
+
+  </section>
+    <!-- End Portion -->
+        <section class="section db p120">
+            <div class="container wow slideInUp">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="tagline-message text-center">
+                            <p style="font-family: 'Knewave', cursive; font-size: 30px; color: #fff;">Howdy, we are Tech Kshetra, we have brought together the best quality services, courses, projects and career options for you!</p>
+                        </div>
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section><!-- end section -->
+
+      <section>
+          <div class="container-fluid" id="Services">
+    <h2 style="text-align: center;"><b>Services</b></h2>
+                 <div class="section-title-divider wow slideInLeft"></div>
+    <div class="row">
+        <div class="col-sm-4 wow slideInUp" data-wow-duration="1s" data-wow-delay="300ms">
+            <div class="face face1">
+                <div class="content">
+                    <h1>Web Development</h1>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Web development is a broad term for the work involved in developing a web site for the Internet or an intranet.</p>
+                    <a href="Services.html">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 wow slideInUp" data-wow-duration="1s" data-wow-delay="350ms">
+            <div class="face face1">
+                <div class="content">
+                    <h1>Interior Design</h1>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>We design your interiors promising the quality of the products we use and the services we provide.</p>
+                    <a href="Services.html">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 wow slideInUp" data-wow-duration="1s" data-wow-delay="400ms">
+            <div class="face face1">
+                <div class="content">
+                    <h1>MEP Design and Drafting</h1>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>We provide you with the most feasible and economically viable design in MEP(Mechanical Electrical Plumbing).</p>
+                    <a href="Services.html">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row"> 
+        <div class="col-sm-4 wow slideInUp" data-wow-duration="1s" data-wow-delay="300ms">
+            <div class="face face1">
+                <div class="content">
+                    <h1>Digital Marketing</h1>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Transform your business with our high level digital marketing services delivered through digital channels.</p>
+                    <a href="Services.html">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 wow slideInUp" data-wow-duration="1s" data-wow-delay="350ms">
+            <div class="face face1">
+                <div class="content">
+                    <h1>CCTV</h1>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>We provide timely executed CCTV services to meet Customer satisfaction.</p>
+                    <a href="Services.html">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 wow slideInUp" data-wow-duration="1s" data-wow-delay="400ms">
+            <div class="face face1">
+                <div class="content">
+                    <h1>Industrial Training</h1>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Industrial Training is one of the most important aspects for an engineering student especially.</p>
+                    <a href="Services.html">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+      </section>
+      
+
+                <nav class="navbar navbar-default yamm" style="background-color: black;">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2" aria-expanded="false" aria-controls="navbar">
+                            <i class="fa fa-toggle-down"></i>  
+                        </button>
+                    </div>
+                    <div id="navbar2" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-left">
+                                    <li><a href="Services.html"><b>Services</b></a></li>
+                                    <li><a href="Tech-Mech.html"style="color: #fff;">Mechanical</a></li>
+                                    <li><a href="Tech-Civil.html"style="color: #fff;">Civil</a></li>
+                                    <li><a href="Tech-EEE.html"style="color: #fff;">Electrical</a></li>
+                                    <li><a href="Tech-CS.html"style="color: #fff;">Computer Science</a></li>
+                                    <li><a href="Tech-Management.html"style="color: #fff;">Management</a></li>
+                                    <!-- <li><a href="master-ai.html"style="color: #fff;">Artificial Intelligence <sub><small>(Master Program)</small></sub></a></li> -->
+                                    <!-- <li><a href="master-ds.html"style="color: #fff;">Data Science <sub><small>(Master Program)</small></sub></a></li> -->
+                                    <li><a href="Tech-Others.html"style="color: #fff;">Other Courses</a></li>
+                                    <!-- <li><a href="Masters.html"><b>Master Programs</b></a></li> -->
+                        </ul>
+                    </div>
+                </nav>
+        
+        
+        <section class="section db">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 wow slideInUp" data-wow-duration="1s" data-wow-delay="300ms">
+                        <div class="stat-count">
+                            <h4 class="stat-timer">499</h4>
+                            <h3 style="font-family: 'Knewave', cursive;"><i class="flaticon-black-graduation-cap-tool-of-university-student-for-head"></i> Happy Students</h3>
+                            <!-- <p style="color: #fff;">Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. </p> -->
+                        </div><!-- stat-count -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-4 wow slideInUp" data-wow-duration="2s" data-wow-delay="350ms">
+                        <div class="stat-count">
+                            <h4 class="stat-timer">431</h4>
+                            <h3 style="font-family: 'Knewave', cursive;"><i class="flaticon-online-course"></i> Course Done</h3>
+                            <!-- <p style="color: #fff;">Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. </p> -->
+                        </div><!-- stat-count -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-4 wow slideInUp" data-wow-duration="3s" data-wow-delay="400ms">
+                        <div class="stat-count">
+                            <h4 class="stat-timer">500</h4>
+                            <h3 style="font-family: 'Knewave', cursive;"><i class="flaticon-coffee-cup"></i> Got Placed</h3>
+                            <!-- <p style="color: #fff;">Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. </p> -->
+                        </div><!-- stat-count -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+
+        <section>
+            <div class="jumbotron text-center" style="text-align: center;justify-content: center;background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('images/new (8).jpg') fixed center center; background-size: cover;box-sizing: border-box;box-shadow: 1px 1px 5px 1px #333;">
+                <div ><h3 style="color: #fff;padding: 10px;">We thanks for all our awesome testimonials! There are hundreds of our happy reviews!</h3></div>
+
+                <div class="container" style="padding-top: 40px;">
+                     <div class="row">
+                    <div class="container">         
+                        <div class="wrapper-clients wow fadeInUp" data-wow-duration="1s" data-wow-delay="300ms">
+                            <!-- Start Testimonial Slider -->
+                            <div class="carousel slide carousel-mod" data-ride="carousel" id="testimonial">
+                                <div class="carousel-inner" style="text-align: center;">
+                                    <!-- Testimonial #1  -->
+                                    <div class="item active">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-sm-12">
+                                                <div class="testimonial-inner">
+                                                    <img class="img-circle" src="images/clients (1).jpeg" alt="" title="" /><!-- Testimonial Image  -->
+                                                    <p> Thanks to TechKShetra i got good training and got placed in a well reputed organisation. </p><!-- Tesimonial  -->
+                                                </div>
+                                                <h5 style="color: #fff;">-- Jomin P Joseph --</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Testimonial #1  -->
+                                    <!-- Testimonial #2  -->
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-sm-12">
+                                                <div class="testimonial-inner">
+                                                    <img class="img-circle" src="images/clients (2).jpeg" alt="" title="" />
+                                                    <p> I got good training and experiance over there when i did a course on web designing and php. </p>
+                                                </div>
+                                                <h5 style="color: #fff;">-- Soumya S Kumar --</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Testimonial #2  -->                                    
+                                    <!-- Testimonial #3  -->
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-sm-12">
+                                                <div class="testimonial-inner">
+                                                    <img class="img-circle" src="images/clients (3).jpeg" alt="" title="" />
+                                                    <p>This institution is very useful for youngsters.The staff and teachers are friendly and help us in unique way.we are getting friendly atmosphere.Beigners get a new platform</p>
+                                                </div>
+                                                <h5 style="color: #fff;">-- Revathy Nair --</h5>
+                                            </div>
+                                        </div>
+                                    </div>                              
+                                    <!-- End Testimonial #3  -->       
+                                      <!-- Testimonial #4  -->
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-sm-12">
+                                                <div class="testimonial-inner">
+                                                    <img class="img-circle" src="images/clients (5).jpeg" alt="" title="" />
+                                                    <p>Tech Kshethra Institute, it provided me a new venture for internship in a practical level knowledge. It have a studyful ambience and full fledged faculties, their friendly nature itslef makes me to go there again and again. 😇</p>
+                                                </div>
+                                                <h5 style="color: #fff;">-- Shivanith --</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Testimonial #4  -->                                    
+                                    <!-- Testimonial #5  -->
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-sm-12">
+                                                <div class="testimonial-inner">
+                                                    <img class="img-circle" src="images/clients (4).jpeg" alt="" title="" />
+                                                    <p>Good atmosphere , friendly teachers</p>
+                                                </div>
+                                                <h5 style="color: #fff;">-- Anjana --</h5>
+                                            </div>
+                                        </div>
+                                    </div>                              
+                                    <!-- End Testimonial #5  -->                                
+                                </div>
+                                <ol class="carousel-indicators">
+                                    <li data-target="#testimonial" data-slide-to="0" class="active"></li>
+                                    <li data-target="#testimonial" data-slide-to="1"></li>
+                                    <li data-target="#testimonial" data-slide-to="2"></li>
+                                    <li data-target="#testimonial" data-slide-to="3"></li>
+                                    <li data-target="#testimonial" data-slide-to="4"></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section gb wow slideInUp">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2><b>Recent Events</b></h2>
+                     <div class="section-title-divider wow slideInRight"></div>
+                </div><!-- end title -->
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="300ms">
+                        <div class="blog-box">
+                            <div class="image-wrap entry">
+                                <img src="assets/img/portfolio/Gallery (7).jpg" alt="" class="img-responsive">
+                                <!-- <div class="magnifier">
+                                     <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
+                                </div> -->
+                            </div><!-- end image-wrap -->
+
+                            <div class="blog-desc">
+                                <h4><a href="blog-single.html">Seminars</a></h4>
+                                <p>We conduct Seminars at various Engineering Colleges.</p>
+                            </div><!-- end blog-desc -->
+
+                            <div class="post-meta">
+                                <ul class="list-inline">
+                                    <li><a href="#">21 March 2019</a></li>
+                                    <li><a href="#">Tech Kshetra</a></li>
+                                    <li><a href="#">14 Share</a></li>
+                                </ul>
+                            </div><!-- end post-meta -->
+                        </div><!-- end blog -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="350ms">
+                        <div class="blog-box">
+                            <div class="image-wrap entry">
+                                <img src="images/news2.jpeg" alt="" class="img-responsive">
+                                <!-- <div class="magnifier">
+                                     <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
+                                </div> -->
+                            </div><!-- end image-wrap -->
+
+                            <div class="blog-desc">
+                                <h4><a href="blog-single.html">Awards</a></h4>
+                                <p>Best technical training institute of the year 2019 </p>
+                            </div><!-- end blog-desc -->
+
+                            <div class="post-meta">
+                                <ul class="list-inline">
+                                    <li><a href="#">20 July 2019</a></li>
+                                    <li><a href="#">Tech Kshetra</a></li>
+                                    <li><a href="#">11 Share</a></li>
+                                </ul>
+                            </div><!-- end post-meta -->
+                        </div><!-- end blog -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="400ms">
+                        <div class="blog-box">
+                            <div class="image-wrap entry">
+                                <img src="images/news3.jpeg" alt="" class="img-responsive">
+                               <!--  <div class="magnifier">
+                                     <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
+                                </div> -->
+                            </div><!-- end image-wrap -->
+
+                            <div class="blog-desc">
+                                <h4><a href="blog-single.html">Onam Celebration</a></h4>
+                                <p>Grant Onam Celebrations </p>
+                            </div><!-- end blog-desc -->
+
+                            <div class="post-meta">
+                                <ul class="list-inline">
+                                    <li><a href="#">19 March 2019</a></li>
+                                    <li><a href="#">Tech Kshetra</a></li>
+                                    <li><a href="#">44 Share</a></li>
+                                </ul>
+                            </div><!-- end post-meta -->
+                        </div><!-- end blog -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+
+        <section class="section bgcolor1">
+            <div class="container wow slideInUp">
+                <a href="#">
+                <div class="row callout">
+                    <div class="col-md-4 text-center" style="font-family: 'Knewave', cursive;">
+                        <h3><sup>Rs</sup>30K</h3>
+                        <h4>Start your awesome course today!</h4>
+                    </div><!-- end col -->
+
+                    <div class="col-md-8">
+                        <p class="lead text-center" style="font-family: 'Knewave', cursive;">"This opportunity comes once in a lifetime" .. Enlist today , Grab your course and start working.</p>
+                    </div>
+                </div><!-- end row -->
+                </a>
+            </div><!-- end container -->  
+        </section>
+
+<!-- Scroll to Top  -->
+<a href="#" class="scroll-up"><i class="fa fa-arrow-up"></i></a>
+<!-- End Scroll To Top  -->
+
+             <!--==========================
+  Footer
+============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="copyright">
+            &copy; Copyright <strong><span style="color: #1478ce;">TechKshetra</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+             <a href="#"><img src="images/Techlogo2.png" alt="" style="width: 50px;"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- #footer -->
+
+    <!-- jQuery Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- VIDEO BG PLUGINS -->
+    <script src="js/videobg.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,772 @@
+<!doctype html>
+<!--[if IE 9]> <html class="no-js ie9 fixed-layout" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js " lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- Site Meta -->
+    <title>Tech Kshetra</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/Techlogo2.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/Techlogo2.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet"> 
+    
+    <!-- Custom & Default Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="C:\Users\USER\Desktop\Used Templates\Imperial\css\style.css"> -->
+
+    <!--[if lt IE 9]>
+        <script src="js/vendor/html5shiv.min.js"></script>
+        <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+        /*******************************
+* ACCORDION WITH TOGGLE ICONS
+* Does not work properly if "in" is added after "collapse".
+* Get free snippets on bootpen.com
+*******************************/
+    .panel-group .panel {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: #EEEEEE;
+    }
+
+    .panel-default > .panel-heading {
+        padding: 0;
+        border-radius: 0;
+        color: #212121;
+        background-color: #FAFAFA;
+        border-color: #EEEEEE;
+        box-shadow: 1px 1px 5px 1px #1478ce;
+        border-top: 5px solid #1478ce;
+    }
+
+    .panel-title {
+        font-size: 14px;
+    }
+
+    .panel-title > a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        background-color:#fff;
+    }
+
+    .more-less {
+        float: right;
+        color: #1478ce;
+    }
+
+    .panel-default > .panel-heading + .panel-collapse > .panel-body {
+        border-top-color: #ededed;
+    }
+
+    #text-container
+    {
+        background-color: rgba(0,0,0,0.9);
+        width: 100%; 
+        color: #fff;
+    }
+    </style>
+</head> 
+<body>  
+
+    <div id="loading"></div> 
+
+    <!-- Scroll to Top  -->
+<a href="#" class="scroll-up"><i class="fa fa-arrow-up"></i></a>
+<!-- End Scroll To Top  -->
+
+
+    <div id="wrapper">
+        <!-- BEGIN # MODAL LOGIN -->
+        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Begin # DIV Form -->
+                    <div id="div-forms">
+                        <form id="login-form">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span class="flaticon-add" aria-hidden="true"></span>
+                            </button>
+                            <div class="modal-body">
+                                <input class="form-control" type="text" placeholder="What you are looking for?" required>
+                            </div>
+                        </form><!-- End # Login Form -->
+                    </div><!-- End # DIV Form -->
+                </div>
+            </div>
+        </div>
+        <!-- END # MODAL LOGIN -->
+
+        <header class="header header-normal">
+            <div class="topbar clearfix">
+                <div class="container">
+                    <div class="row-fluid">
+                        <div class="col-md-6 col-sm-6 text-left">
+                            <p>
+                                <strong><i class="fa fa-phone" style="color: #1478ce;"></i></strong> 0471-4850377 &nbsp;&nbsp;
+                                <strong><i class="fa fa-envelope" style="color: #1478ce;"></i></strong> <a href="mailto:#">infotechkshetra@gmail.com</a>
+                            </p>
+                        </div><!-- end left -->
+                        <div class="col-md-6 col-sm-6 hidden-xs text-right">
+                            <div class="social">
+                                 <a class="facebook" href="https://www.facebook.com/techkshetraofficial/" target="_blank" data-tooltip="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>              
+                                <a class="twitter" href="https://www.instagram.com/tech__kshetra/" 
+                                target="_blank" data-tooltip="tooltip" data-placement="bottom" title="instagram"><i class="fa fa-instagram"></i></a>
+                                <a class="google" href="#" data-tooltip="tooltip" data-placement="bottom" title="Google Plus"><i class="fa fa-google-plus"></i></a>
+                                <a class="linkedin" href="#" data-tooltip="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                                <a class="pinterest" href="#" data-tooltip="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+                            </div><!-- end social -->
+                        </div><!-- end left -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end topbar -->
+
+            <div class="container">
+                <nav class="navbar navbar-default yamm">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="logo-normal">
+                            <a class="navbar-brand" href="index.html"><img src="images/Techlogo1.png" style="width:120px;" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html">Home</a></li>
+                           <li><a href="Aboutus.html">About Us</a></li>
+                             <li><a href="Services.html">Services</a></li>
+                            <li><a href="Career.html">Career</a></li>
+                             <li class="dropdown hassubmenu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Training <span class="fa fa-angle-down"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="Tech-Mech.html"style="color: #333;"><b>Mechanical</b></a></li>
+                                    <li><a href="Tech-Civil.html"style="color: #333;"><b>Civil</b></a></li>
+                                    <li><a href="Tech-EEE.html"style="color: #333;"><b>Electrical</b></a></li>
+                                    <li><a href="#"style="color: #333;"><b>Computer Science</b></a></li>
+                                    <li><a href="Tech-Management.html"style="color: #333;"><b>Management</b></a></li>
+                                    <li><a href="Tech-Others.html"style="color: #333;"><b>Other</b></a></li>
+                                     <li><b style="padding-left: 30px;color: #1478ce;"><i>Master Programs</i></b></li>
+                                    <li><a href="master-ai.html"style="color: #333;"><b>Artificial Intelligence</b></a></li>
+                                    <li><a href="master-ds.html"style="color: #333;"><b>Data Science</b></a></li>
+                                    <li><a href="master-ml.html"style="color: #333;"><b>Machine Learning</b></a></li>
+                                </ul>
+                            </li>
+                            
+                            <li><a href="Gallery2.html">Gallery</a></li>
+                            <li><a href="page-contact.html">Contact</a></li>
+                            <li class="iconitem"><a href="#" data-toggle="modal" data-target="#login-modal"><i class="fa fa-search"></i></a></li>
+                        </ul>
+                    </div>
+                </nav><!-- end navbar -->
+            </div><!-- end container -->
+        </header>
+
+         <div class="conatiner">
+             <div class="jumbotron text-center" style="background-color: black;">
+                 <h2 style="color: #fff;letter-spacing: 3px;" class="wow slideInLeft"><b>Computer Science</b></h2>
+                 <div class="section-title-divider wow slideInRight"></div>
+             </div>
+         </div>
+
+      
+          <div class="container demo" style="width: 100%">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                <div class="row">
+                    <div class="col-sm-8">
+
+                        <h3 style="color: #1478ce;"><b>PROGRAMMING</b></h3>
+
+                         <div class="panel panel-default">
+            <div class="panel-heading wow fadeInUp" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                        <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>PHP</b></h4>
+                    </a>
+                </h4>               
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body" >
+                <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/sample (5).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                         <div class="container" id="text-container">
+                            <hr>
+                        <p>Hypertext Preprocessor (or simply PHP) is a server-side scripting language designed for Web development, but also used as a general-purpose programming language. It was originally created by Rasmus Lerdorf,the PHP reference implementation is now produced by The PHP Group.PHP originally stood for Personal Home Page,but it now stands for the recursive acronym PHP: Hypertext Preprocessor.Because of the significant changes, the reworked Zend Engine is called Zend Engine 3, succeeding Zend Engine 2 used in PHP 5. As of 14 July 2014, WordPress-based benchmarks, which served as the main benchmark suite for the php project, showed an almost 100% increase in performance.</p>
+
+
+                      <p>The foundation of PHP 7 is a PHP branch that was originally dubbed PHP next generation. It was authored by Dmitry Stogov, Xinchen Hui and Nikita Popov,and aimed to optimize PHP performance by refactoring the Zend Engine while retaining near-complete language compatibility.Changes from phpng are also expected to make it easier to improve performance in the future, as more compact data structures and other changes are seen as better suited for a successful migration to a just-in-time (JIT) compiler.</p>
+
+
+                      <p>The PHP interpreter only executes PHP code within its delimiters. Anything outside its delimiters is not processed by PHP, although non-PHP text is still subject to control structures described in PHP code. The most common delimiters are to open and to close PHP sections. The shortened form also exists. This short delimiter makes script files less portable, since support for them can be disabled in the local PHP configuration and it is therefore discouraged.</p>
+               
+                        <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Any Stream <br>
+                            Duration: 3 months</b></h5>
+                        </div>
+                 </div>
+                    </div>
+               
+                </div>
+            </div>
+        </div>
+        
+
+         <div class="panel panel-default">
+            <div class="panel-heading wow fadeInUp" role="tab" id="headingfour">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                       <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>Python / Python Anaconda Spyder</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour">
+                <div class="panel-body">
+                    
+                    <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/sample (3).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                   <p>Python is an interpreted high-level programming language for general-purpose programming.Python features a dynamic type system and automatic memory management. It supports multiple programming paradigms, including object-oriented, imperative, functional and procedural, and has a large and comprehensive standard library.Python interpreters are available for many operating systems. C Python, the reference implementation of Python, is open source software and has a community-based development model, as do nearly all of its variant implementations. C Python is managed by the non-profit Python Software Foundation.</p>
+
+
+                    <p>Rather than having all of its functionality built into its core, Python was designed to be highly extensible. This compact modularity has made it particularly popular as a means of adding programmable interfaces to existing applications. Van Rossum's vision of a small core language with a large standard library and easily extensible interpreter stemmed from his frustrations with ABC, which espoused the opposite approach.</p>
+
+
+                    <p>Python is meant to be an easily readable language. Its formatting is visually uncluttered, and it often uses English keywords where other languages use punctuation. Unlike many other languages, it does not use curly brackets to delimit blocks, and semicolons after statements are optional. It has fewer syntactic exceptions and special cases than C or Pascal.Python uses whitespace indentation, rather than curly brackets or keywords, to delimit blocks. An increase in indentation comes after certain statements; a decrease in indentation signifies the end of the current block.</p>
+
+                    <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Any Stream <br>
+                            Duration: 3 months</b></h5>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading wow fadeInUp" role="tab" id="headingseven">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                        <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>C , C++</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseseven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingseven">
+                <div class="panel-body">
+                     <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/sample (1).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                        
+                        <p>It was designed with a bias toward system programming and embedded, resource-constrained and large systems, with performance, efficiency and flexibility of use as its design highlights.C++ has also been found useful in many other contexts, with key strengths being software infrastructure and resource-constrained applications,including desktop applications, servers (e.g. e-commerce, web search or SQL servers), and performance-critical applications(e.g. telephone switches or space probes).C++ is a compiled language, with implementations of it available on many platforms.</p>
+
+
+                        <p>Object oriented programming – As the name suggests uses objects in programming. Object oriented programming aims to implement real world entities like inheritance, hiding, polymorphism etc in programming. The main aim of OOP is to bind together the data and the functions that operates on them so that no other part of code can access this data except that function.</p>
+
+                        <p>Let us learn about different characteristics of an Object Oriented Programming language via this course</p>
+
+                         <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Any Stream <br>
+                            Duration: 3 months</b></h5>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+
+         <div class="panel panel-default">
+            <div class="panel-heading wow fadeInUp" role="tab" id="headingsix">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                       <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>Java</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapsesix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingsix">
+                <div class="panel-body">
+                    <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/sample (2).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                       
+                        <p>Java is a set of computer software and specifications developed by James Gosling at Sun Microsystems, which was later acquired by the Oracle Corporation, that provides a system for developing application software and deploying it in a cross-platform computing environment. Java is used in a wide variety of computing platforms from embedded devices and mobile phones to enterprise servers and supercomputers. Java applets, which are less common than standalone Java applications, were commonly run in secure, sandboxed environments to provide many features of native applications through being embedded in HTML pages.</p>
+                        
+                         <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Any Stream <br>
+                            Duration: 3 months</b></h5>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+
+          <div class="panel panel-default">
+            <div class="panel-heading wow fadeInUp" role="tab" id="headingtwelve">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsetwelve" aria-expanded="false" aria-controls="collapsetwelve">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                        <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>R Statistical Computing</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapsetwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingtwelve">
+                <div class="panel-body">
+                     <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/sample (14).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                        
+                        <p>R is a programming language and free software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data miners for developing statistical software and data analysis. Polls, data mining surveys, and studies of scholarly literature databases show substantial increases in popularity as of February 2020, R ranks 13th in the TIOBE index, a measure of popularity of programming languages.</p>
+
+                        <p>A GNU package, the official R software environment is written primarily in C, Fortran, and R itself (thus, it is partially self-hosting) and is freely available under the GNU General Public License. Pre-compiled executables are provided for various operating systems. Although R has a command line interface, there are several third-party graphical user interfaces, such as RStudio, an integrated development environment, and Jupyter, a notebook interface.</p>
+
+                        <p>R and its libraries implement a wide variety of statistical and graphical techniques, including linear and nonlinear modeling, classical statistical tests, time-series analysis, classification, clustering, and others. R is easily extensible through functions and extensions, and the R community is noted for its active contributions in terms of packages. Many of R's standard functions are written in R itself,[citation needed] which makes it easy for users to follow the algorithmic choices made. For computationally intensive tasks, C, C++, and Fortran code can be linked and called at run time. Advanced users can write C, C++, Java, .NET or Python code to manipulate R objects directly. R is highly extensible through the use of user-submitted packages for specific functions or specific areas of study. Due to its S heritage, R has stronger object-oriented programming facilities than most statistical computing languages. Extending R is also eased by its lexical scoping rules.</p>
+
+                        <p>Another strength of R is static graphics, which can produce publication-quality graphs, including mathematical symbols. Dynamic and interactive graphics are available through additional packages.</p>
+
+                        <p>R has Rd, its own LaTeX-like documentation format, which is used to supply comprehensive documentation, both online in a number of formats and in hard copy.</p>
+
+                    
+
+                         <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Any Stream <br>
+                            Duration: 3 months</b></h5>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+                    </div>
+                    <div class="col-sm-4">
+                         <div>
+                            <center><img src="images/pics (5).jpeg" style="width: 300px;box-shadow: 1px 1px 5px 1px #333;box-sizing: border-box;margin-bottom: 10px;"></center>
+                         </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div>
+                             <center><img src="images/pics (1).jpeg" style="width: 300px;box-shadow: 1px 1px 5px 1px #333;box-sizing: border-box;margin-bottom: 10px;"></center>
+                         </div>
+                    </div>
+                    <div class="col-sm-8">
+
+                        <h3 style="color: #1478ce;"><b>SOFTWARE</b></h3>
+
+                         <div class="panel panel-default">
+            <div class="panel-heading wow fadeInUp" role="tab" id="headingfive">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                        <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>Graphic Design</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapsefive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfive">
+                <div class="panel-body">
+                    <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/sample (8).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                        <p>Graphic design is the process of visual communication and problem-solving through the use of typography, photography and illustration. The field is considered a subset of visual communication and communication design, but sometimes the term "graphic design" is used synonymously. Graphic designers create and combine symbols, images and text to form visual representations of ideas and messages. They use typography, visual arts and page layout techniques to create visual compositions. Common uses of graphic design include corporate design (logos and branding), editorial design (magazines, newspapers and books), wayfinding or environmental design, advertising, web design, communication design, product packaging and signage.</p>
+
+
+                        <p>Graphic design is applied to everything visual, from road signs to technical schematics, from interoffice memorandums to reference manuals.Design can aid in selling a product or idea. It is applied to products and elements of company identity such as logos, colors, packaging and text as part of branding (see also advertising). Branding has increasingly become important in the range of services offered by graphic designers. Graphic designers often form part of a branding team.</p>
+
+
+                        <p>A graphic design project may involve the stylization and presentation of existing text and either preexisting imagery or images developed by the graphic designer. Elements can be incorporated in both traditional and digital form, which involves the use of visual arts, typography, and page layout techniques. Graphic designers organize pages and optionally add graphic elements. Graphic designers can commission photographers or illustrators to create original pieces. Designers use digital tools, often referred to as interactive design, or multimedia design. Designers need communication skills to convince an audience and sell their designs.</p>
+                        
+                         <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Any Stream <br>
+                            Duration: 3 months</b></h5>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="panel panel-default">
+            <div class="panel-heading wow fadeInUp" role="tab" id="headingThree">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <span class="more-less glyphicon glyphicon-chevron-down"></span>
+                        <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>.Net Framework</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                    
+                        <div class="row">
+                         <div class="col-sm-12">
+                             <img src="images/sample (6).jpeg" style="width: 100%;">
+                         </div>
+                          <div class="col-sm-12">
+                          <div class="container" id="text-container">
+                        <hr>
+                        <p>.NET Framework (pronounced dot net) is a software framework developed by Microsoft that runs primarily on Microsoft Windows. It includes a large class library named Framework Class Library (FCL) and provides language interoperability (each language can use code written in other languages) across several programming languages. Programs written for .NET Framework execute in a software environment (in contrast to a hardware environment) named Common Language Runtime (CLR), an application virtual machine that provides services such as security, memory management, and exception handling. (As such, computer code written using .NET Framework is called "managed code".) FCL and CLR together constitute.</p>
+
+
+                        <p>FCL provides user interface, data access, database connectivity, cryptography, web application development, numeric algorithms, and network communications. Programmers produce software by combining their source code with .NET Framework and other libraries. The framework is intended to be used by most new applications created for the Windows platform. Microsoft also produces an integrated development environment largely for .NET software called Visual Studio.</p>
+
+
+                        <p>.NET Framework began as proprietary software, although the firm worked to standardize the software stack almost immediately, even before its first release. Despite the standardization efforts, developers, mainly those in the free and open-source software communities, expressed their unease with the selected terms and the prospects of any free and open-source implementation, especially regarding software patents.</p>
+                         <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Any Stream <br>
+                            Duration: 3 months</b></h5>
+                        </div>
+                   </div>
+               </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="panel panel-default">
+            <div class="panel-heading wow fadeInUp" role="tab" id="headingTwo">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                        <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>Android</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                    <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/sample (7).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                    <p>Android is a mobile operating system developed by Google, based on a modified version of the Linux kernel and other open source software and designed primarily for touchscreen mobile devices such as smartphones and tablets. In addition, Google has further developed Android TV for televisions, Android Auto for cars, and Wear OS for wrist watches, each with a specialized user interface. Variants of Android are also used on game consoles, digital cameras, PCs and other electronics.</p>
+
+
+                    <p>Initially developed by Android Inc., which Google bought in 2005, Android was unveiled in 2007, with the first commercial Android device launched in September 2008. The operating system has since gone through multiple major releases, with the current version being 8.1 "Oreo", released in December 2017. The core Android source code is known as Android Open Source Project (AOSP), and is primarily licensed under the Apache License.</p>
+
+
+                    <p>Due to the open nature of Android, a number of third-party application marketplaces also exist for Android, either to provide a substitute for devices that are not allowed to ship with Google Play Store, provide applications that cannot be offered on Google Play Store due to policy violations, or for other reasons. Examples of these third-party stores have included the Amazon Appstore, GetJar, and SlideMe. F-Droid, another alternative marketplace, seeks to only provide applications that are distributed under free and open source licenses.</p>
+
+                     <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Any Stream <br>
+                            Duration: 3 months</b></h5>
+                    </div> 
+                    </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+       
+   <!--  <div class="panel panel-default">
+            <div class="panel-heading wow slideInLeft" role="tab" id="headingnine">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                        <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>Machine Learning and Artificial Intelligence</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapsenine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingnine">
+                <div class="panel-body">
+                     <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/new (1).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                        
+                        <p>Machine learning is the scientific study of algorithms and statistical models that computer systems use to perform a specific task without using explicit instructions, relying on patterns and inference instead. It is seen as a subset of artificial intelligence. Machine learning algorithms build a mathematical model based on sample data, known as "training data", in order to make predictions or decisions without being explicitly programmed to perform the task.Machine learning algorithms are used in a wide variety of applications, such as email filtering and computer vision, where it is difficult or infeasible to develop a conventional algorithm for effectively performing the task</p>
+
+                        <p>In computer science, artificial intelligence sometimes called machine intelligence, is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and animals. Leading AI textbooks define the field as the study of "intelligent agents": any device that perceives its environment and takes actions that maximize its chance of successfully achieving its goals.Colloquially, the term "artificial intelligence" is often used to describe machines (or computers) that mimic "cognitive" functions that humans associate with the human mind, such as "learning" and "problem solving".</p>
+
+                    
+
+                         <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Any Stream <br>
+                            Duration: 3 months</b></h5>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div> -->
+
+           <div class="panel panel-default">
+            <div class="panel-heading wow fadeInUp" role="tab" id="headingten">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseten" aria-expanded="false" aria-controls="collapseten">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                        <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>3DS MAX</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseten" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingten">
+                <div class="panel-body">
+                     <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/sample (10).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                        
+                        <p>Autodesk 3ds Max, formerly 3D Studio and 3D Studio Max, is a professional 3D computer graphics program for making 3D animations, models, games and images. It is developed and produced by Autodesk Media and Entertainment. It has modeling capabilities and a flexible plugin architecture and must be used on the Microsoft Windows platform. It is frequently used by video game developers, many TV commercial studios, and architectural visualization studios. It is also used for movie effects and movie pre-visualization. For its modeling and animation tools, the latest version of 3ds Max also features shaders (such as ambient occlusion and subsurface scattering), dynamic simulation, particle systems, radiosity, normal map creation and rendering, global illumination, a customizable user interface, new icons, and its own scripting language.</p>
+
+                        <p>The original 3D Studio product was created for the DOS platform by Gary Yost and the Yost Group, and published by Autodesk. The release of 3D Studio made Autodesk's previous 3D rendering package AutoShade obsolete. After 3D Studio DOS Release 4, the product was rewritten for the Windows NT platform, and renamed "3D Studio MAX". This version was also originally created by the Yost Group. It was released by Kinetix, which was at that time Autodesk's division of media and entertainment.</p>
+
+                    
+
+                         <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Any Stream <br>
+                            Duration: 3 months</b></h5>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="panel panel-default">
+            <div class="panel-heading wow fadeInUp" role="tab" id="headingeleven">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseeleven" aria-expanded="false" aria-controls="collapseeleven">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                        <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>AutoCAD</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseeleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingeleven">
+                <div class="panel-body">
+                     <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/sample (11).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                        
+                        <p>AutoCAD is a commercial computer-aided design (CAD) and drafting software application. Developed and marketed by Autodesk, AutoCAD was first released in December 1982 as a desktop app running on microcomputers with internal graphics controllers. Before AutoCAD was introduced, most commercial CAD programs ran on mainframe computers or minicomputers, with each CAD operator (user) working at a separate graphics terminal. Since 2010, AutoCAD was released as a mobile- and web app as well, marketed as AutoCAD 360. AutoCAD is used in industry, by architects, project managers, engineers, graphic designers, city planners and other professionals. It was supported by 750 training centers worldwide in 1994.</p>
+
+                        <p>AutoCAD was derived from a program that began in 1977, and then released in 1979 called Interact CAD, also referred to in early Autodesk documents as MicroCAD, which was written prior to Autodesk's (then Marinchip Software Partners) formation by Autodesk cofounder Michael Riddle. The first version by Autodesk was demonstrated at the 1982 Comdex and released that December. AutoCAD supported CP/M-80 computers. As Autodesk's flagship product, by March 1986 AutoCAD had become the most ubiquitous CAD program worldwide. The 2020 release marked the 34th major release of AutoCAD for Windows. The 2019 release marked the ninth consecutive year of AutoCAD for Mac. The native file format of AutoCAD is .dwg. This and, to a lesser extent, its interchange file format DXF, have become de facto, if proprietary, standards for CAD data interoperability, particularly for 2D drawing exchange.[citation needed] AutoCAD has included support for .dwf, a format developed and promoted by Autodesk, for publishing CAD data.</p>
+
+                    
+
+                         <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Any Stream <br>
+                            Duration: 3 months</b></h5>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+           
+         <div class="panel panel-default">
+            <div class="panel-heading wow fadeInUp" role="tab" id="headingthirteen">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsethirteen" aria-expanded="false" aria-controls="collapsethirteen">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                        <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>REVIT</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapsethirteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingthirteen">
+                <div class="panel-body">
+                     <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/sample (12).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                        
+                        <p>Autodesk Revit is a building information modelling software for architects, landscape architects, structural engineers, mechanical, electrical, and plumbing (MEP) engineers, designers and contractors. The original software was developed by Charles River Software, founded in 1997, renamed Revit Technology Corporation in 2000, and acquired by Autodesk in 2002. The software allows users to design a building and structure and its components in 3D, annotate the model with 2D drafting elements, and access building information from the building model's database. Revit is 4D building information modeling capable with tools to plan and track various stages in the building's lifecycle, from concept to construction and later maintenance and/or demolition.</p>
+
+                        <p>Revit can be used as a very powerful collaboration tool between different disciplines in the building design sphere. The different disciplines that use Revit approach the program from unique perspectives. Each of these perspectives is focused on completing that discipline's task. Companies that adopt the software first examine the existing work flow process to determine if such an elaborate collaboration tool is required.</p>
+
+                        <p>A recent addition to use cases and implementation is the Apache Licensed Dynamo graphical programming interface. Dynamo is similar to and takes inspiration from the Grasshopper visual programming language and environment for Rhino. In addition to the node-based interface Dynamo can be scripted with the Design Script language and Python.</p>
+
+                    
+
+                         <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Any Stream <br>
+                            Duration: 3 months</b></h5>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+
+
+            <div class="panel panel-default">
+            <div class="panel-heading wow fadeInUp" role="tab" id="headingfourteen">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefourteen" aria-expanded="false" aria-controls="collapsefourteen">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                        <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>SAS</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapsefourteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfourteen">
+                <div class="panel-body">
+                     <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/sample (15).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                        
+                        <p>SAS (previously "Statistical Analysis System") is a statistical software suite developed by SAS Institute for data management, advanced analytics, multivariate analysis, business intelligence, criminal investigation, and predictive analytics. SAS was developed at North Carolina State University from 1966 until 1976, when SAS Institute was incorporated. SAS was further in the 1980s and 1990s with the addition of new statistical procedures, additional components and the introduction of JMP. A point-and-click interface was added in version 9 in 2004. A social media analytics product was added in 2010.</p>
+
+                        <p>SAS is a software suite that can mine, alter, manage and retrieve data from a variety of sources and perform statistical analysis on it. SAS provides a graphical point-and-click user interface for non-technical users and more through the SAS language. SAS programs have DATA steps, which retrieve and manipulate data, and PROC steps, which analyze the data. Each step consists of a series of statements.</p>
+
+                        <p>The DATA step has executable statements that result in the software taking an action, and declarative statements that provide instructions to read a data set or alter the data's appearance. The DATA step has two phases: compilation and execution. In the compilation phase, declarative statements are processed and syntax errors are identified. Afterwards, the execution phase processes each executable statement sequentially. Data sets are organized into tables with rows called "observations" and columns called "variables". Additionally, each piece of data has a descriptor and a value.</p>
+
+                    
+
+                         <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Any Stream <br>
+                            Duration: 3 months</b></h5>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>        
+                        
+            <div class="panel panel-default">
+            <div class="panel-heading wow fadeInUp" role="tab" id="headingfifteen">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefifteen" aria-expanded="false" aria-controls="collapsefifteen">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                        <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>SPSS</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapsefifteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfifteen">
+                <div class="panel-body">
+                     <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/sample (13).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                        
+                        <p>SPSS Statistics is a software package used for interactive, or batched, statistical analysis. Long produced by SPSS Inc., it was acquired by IBM in 2009. The current versions (2015) are named IBM SPSS Statistics. The software name originally stood for Statistical Package for the Social Sciences (SPSS), reflecting the original market, then later changed to Statistical Product and Service Solutions.</p>
+
+                        <p>SPSS is a widely used program for statistical analysis in social science. It is also used by market researchers, health researchers, survey companies, government, education researchers, marketing organizations, data miners, and others. The original SPSS manual (Nie, Bent & Hull, 1970) has been described as one of "sociology's most influential books" for allowing ordinary researchers to do their own statistical analysis. In addition to statistical analysis, data management (case selection, file reshaping, creating derived data) and data documentation (a metadata dictionary is stored in the datafile) are features of the base software.</p>
+
+                        <p>The many features of SPSS Statistics are accessible via pull-down menus or can be programmed with a proprietary 4GL command syntax language. Command syntax programming has the benefits of reproducible output, simplifying repetitive tasks, and handling complex data manipulations and analyses. Additionally, some complex applications can only be programmed in syntax and are not accessible through the menu structure. The pull-down menu interface also generates command syntax: this can be displayed in the output, although the default settings have to be changed to make the syntax visible to the user. They can also be pasted into a syntax file using the "paste" button present in each menu. Programs can be run interactively or unattended, using the supplied Production Job Facility.</p>
+
+                    
+
+                         <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Any Stream <br>
+                            Duration: 3 months</b></h5>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+                 
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--==========================
+  Footer
+============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="copyright">
+            &copy; Copyright <strong><span style="color: #1478ce;">TechKshetra</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+             <a href="#"><img src="images/Techlogo2.png" alt="" style="width: 50px;"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- #footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+        /*******************************
+        * ACCORDION WITH TOGGLE ICONS
+        *******************************/
+        function toggleIcon(e) {
+            $(e.target)
+                .prev('.panel-heading')
+                .find(".more-less")
+                .toggleClass('glyphicon-chevron-up glyphicon-chevron-down');
+        }
+        $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+        $('.panel-group').on('shown.bs.collapse', toggleIcon);
+    </script>
+
+</body>
+</html>
+
+
+
+    

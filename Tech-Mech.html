@@ -1,0 +1,679 @@
+<!doctype html>
+<!--[if IE 9]> <html class="no-js ie9 fixed-layout" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js " lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- Site Meta -->
+    <title>Tech Kshetra</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/Techlogo2.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/Techlogo2.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet"> 
+    
+    <!-- Custom & Default Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="C:\Users\USER\Desktop\Used Templates\Imperial\css\style.css"> -->
+
+    <!--[if lt IE 9]>
+        <script src="js/vendor/html5shiv.min.js"></script>
+        <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+        /*******************************
+* ACCORDION WITH TOGGLE ICONS
+* Does not work properly if "in" is added after "collapse".
+* Get free snippets on bootpen.com
+*******************************/
+    .panel-group .panel {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: #EEEEEE;
+    }
+
+    .panel-default > .panel-heading {
+        padding: 0;
+        border-radius: 0;
+        color: #212121;
+        background-color: #FAFAFA;
+        border-color: #EEEEEE;
+         box-shadow: 1px 1px 5px 1px #1478ce;
+         border-top: 5px solid #1478ce;
+    }
+
+    .panel-title {
+        font-size: 14px;
+    }
+
+    .panel-title > a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        background-color:#fff;
+    }
+
+    .more-less {
+        float: right;
+        color: #1478ce;
+    }
+
+    .panel-default > .panel-heading + .panel-collapse > .panel-body {
+        border-top-color: #ededed;
+    }
+
+    #text-container
+    {
+        background-color: rgba(0,0,0,0.9);
+        width: 100%; 
+        color: #fff;
+    }
+    </style>
+</head> 
+<body>  
+
+    <div id="loading"></div> 
+
+    <!-- Scroll to Top  -->
+<a href="#" class="scroll-up"><i class="fa fa-arrow-up"></i></a>
+<!-- End Scroll To Top  -->
+
+
+    <div id="wrapper">
+        <!-- BEGIN # MODAL LOGIN -->
+        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Begin # DIV Form -->
+                    <div id="div-forms">
+                        <form id="login-form">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span class="flaticon-add" aria-hidden="true"></span>
+                            </button>
+                            <div class="modal-body">
+                                <input class="form-control" type="text" placeholder="What you are looking for?" required>
+                            </div>
+                        </form><!-- End # Login Form -->
+                    </div><!-- End # DIV Form -->
+                </div>
+            </div>
+        </div>
+        <!-- END # MODAL LOGIN -->
+
+        <header class="header header-normal">
+            <div class="topbar clearfix">
+                <div class="container">
+                    <div class="row-fluid">
+                        <div class="col-md-6 col-sm-6 text-left">
+                            <p>
+                                <strong><i class="fa fa-phone" style="color: #1478ce;"></i></strong> 0471-4850377 &nbsp;&nbsp;
+                                <strong><i class="fa fa-envelope" style="color: #1478ce;"></i></strong> <a href="mailto:#">infotechkshetra@gmail.com</a>
+                            </p>
+                        </div><!-- end left -->
+                        <div class="col-md-6 col-sm-6 hidden-xs text-right">
+                            <div class="social">
+                                 <a class="facebook" href="https://www.facebook.com/techkshetraofficial/" target="_blank" data-tooltip="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>              
+                                <a class="twitter" href="https://www.instagram.com/tech__kshetra/" 
+                                target="_blank" data-tooltip="tooltip" data-placement="bottom" title="instagram"><i class="fa fa-instagram"></i></a>
+                                <a class="google" href="#" data-tooltip="tooltip" data-placement="bottom" title="Google Plus"><i class="fa fa-google-plus"></i></a>
+                                <a class="linkedin" href="#" data-tooltip="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                                <a class="pinterest" href="#" data-tooltip="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+                            </div><!-- end social -->
+                        </div><!-- end left -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end topbar -->
+
+            <div class="container">
+                <nav class="navbar navbar-default yamm">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="logo-normal">
+                            <a class="navbar-brand" href="index.html"><img src="images/Techlogo1.png" style="width:120px;" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html">Home</a></li>
+                           <li><a href="Aboutus.html">About Us</a></li>
+                             <li><a href="Services.html">Services</a></li>
+                            <li><a href="Career.html">Career</a></li>
+                             <li class="dropdown hassubmenu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Training <span class="fa fa-angle-down"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#"style="color: #333;"><b>Mechanical</b></a></li>
+                                    <li><a href="Tech-Civil.html"style="color: #333;"><b>Civil</b></a></li>
+                                    <li><a href="Tech-EEE.html"style="color: #333;"><b>Electrical</b></a></li>
+                                    <li><a href="Tech-CS.html"style="color: #333;"><b>Computer Science</b></a></li>
+                                    <li><a href="Tech-Management.html"style="color: #333;"><b>Management</b></a></li>
+                                    <li><a href="Tech-Others.html"style="color: #333;"><b>Other</b></a></li>
+                                     <li><b style="padding-left: 30px;color: #1478ce;"><i>Master Programs</i></b></li>
+                                    <li><a href="master-ai.html"style="color: #333;"><b>Artificial Intelligence</b></a></li>
+                                    <li><a href="master-ds.html"style="color: #333;"><b>Data Science</b></a></li>
+                                    <li><a href="master-ml.html"style="color: #333;"><b>Machine Learning</b></a></li>
+                                </ul>
+                            </li>
+                            
+                            <li><a href="Gallery2.html">Gallery</a></li>
+                            <li><a href="page-contact.html">Contact</a></li>
+                            <li class="iconitem"><a href="#" data-toggle="modal" data-target="#login-modal"><i class="fa fa-search"></i></a></li>
+                        </ul>
+                    </div>
+                </nav><!-- end navbar -->
+            </div><!-- end container -->
+        </header>
+
+         <div class="conatiner">
+             <div class="jumbotron text-center" style="background-color: black;">
+                 <h2 style="color: #fff;letter-spacing: 3px;" class="wow slideInLeft"><b>MECHANICAL</b></h2>
+                 <div class="section-title-divider wow slideInRight"></div>
+             </div>
+         </div>
+
+      
+          <div class="container demo" style="width: 100%;">
+
+    
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+      <div class="row">
+          <div class="col-sm-8">
+                <div class="panel panel-default">
+            <div class="panel-heading wow slideInRight" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                        <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>Automobile Engineering</b></h4>
+                    </a>
+                </h4>               
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body" >
+                      
+               
+                <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/Mech (1).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                         <div class="container" id="text-container">
+                            <hr>
+                        <p>Automobile Engineering or Automotive Engineering is a part of Mechanical Engineering. Through the application of automotive technology, the course offers specialisation in vehicle designing, repairing, testing and assembling. In this programme, one can also learn safety engineering, quality management and control, automotive analytics as well as assembling and installation of various automobiles. It enables the students to explore new areas, create new avenues in the fields of research and development of technologies in the field of automobile engineering. As Design Engineers, automobile engineers design the intricate details of the hydraulic, electrical, and mechanical systems inside a vehicle.</p>
+                        <ul>
+                            <li>
+                                As Development Engineers, they are involved in the development, implementation, operation, maintenance, and control of all processes in the manufacture of vehicles.
+                            </li>
+                            <li>
+                                 As quality control executive, they work towards improving the efficiency of existing vehicles and developing new ones.
+                            </li>
+                        </ul>
+                        <p>Along with this, graduates and postgraduates may fetch following jobs in the automobile industry:</p>
+                        <ul>
+                            <li>Automobile Engineering</li>
+                            <li>Material Processing Specialist</li>
+                            <li>Safety Testing Specialist</li>
+                            <li>Material Purchase Manager</li>
+                            <li>Quality Control Executive</li>
+                            <li>Research and Development Engineer</li>
+                        </ul>
+                        <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Mechanical Engineering<br>
+                            Duration: 6 months</b></h5>
+                        </div>
+                 </div>
+                    </div>
+               
+                </div>
+            </div>
+        </div>
+             <div class="panel panel-default">
+            <div class="panel-heading wow slideInLeft" role="tab" id="headingTwo">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                        <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>HVAC</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                    <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/Mech (3).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                    <p> Heating, ventilation, and air conditioning (HVAC) is the technology of indoor and environmental comfort. Its goal is to provide thermal comfort and acceptable indoor air quality. HVAC system design is a subdiscipline of mechanical engineering, based on the principles of thermodynamics, fluid mechanics, and heat transfer. HVAC is an important part of residential structures such as single family homes, apartment buildings, hotels and senior living facilities, medium to large industrial and office buildings such as skyscrapers and hospitals, on ships and submarines, and in marine environments, where safe and healthy building conditions are regulated with respect to temperature and humidity, using fresh air from outdoors.</p>
+                    
+                    <p>The HVAC industry is a worldwide enterprise, with roles including operation and maintenance, system design and construction, equipment manufacturing and sales, and in education and research. Jobs in the area of heating, ventilation, and air conditioning (HVAC) have been steadily on the rise. Not only are mechanics in greater demand, but the diversity of HVAC-related occupations affords plenty of additional opportunities for employment.</p>
+
+                    <p>Training for this expanding field can open career possibilities in a variety of areas, bringing acquired skills and individual talents together to create the ideal situation for the eager professional HVACR technicians work on heating, ventilation, cooling, and refrigeration systems that control the temperature and air quality in buildings. In addition to its broad spectrum of careers, HVAC offers room for advancement and adaptation of skills in other fields. Industry growth promises a continuation of job offerings and creation of more new occupations, increasing possibilities in coming years. The variety and availability of HVAC related positions makes it an optimal choice for a rewarding future.</p>
+
+                     <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Mechanical Engineering<br>
+                            Duration: 3 months</b></h5>
+                    </div> 
+                    </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading wow slideInRight" role="tab" id="headingThree">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <span class="more-less glyphicon glyphicon-chevron-down"></span>
+                        <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>MEP</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                    
+                        <div class="row">
+                         <div class="col-sm-12">
+                             <img src="images/Mech (6).jpeg" style="width: 100%;">
+                         </div>
+                          <div class="col-sm-12">
+                          <div class="container" id="text-container">
+                        <hr>
+                        <p>Mechanical, electrical, and plumbing (MEP) refers to these aspects of building design and construction. In commercial buildings these aspects are often designed by an engineering firm specializing in MEP. Mechanical engineers often design and oversees the heating, ventilation and air conditioning (HVAC), plumbing, and rain gutter systems. Plumbing designers often include design specifications for simple active fire protection systems, but for more complicated projects, fire protection engineers are often separately retained. Electrical engineers are responsible for the building's power distribution, telecommunication, fire alarm, signalization, lightning protection and control systems, as well as lighting systems.</p>
+
+                        <p>MEP design is important for design decision-making, accurate documentation, performance and cost-estimation, construction planning, managing and operating the resulting facility. This course explains the fundamentals involved in such a designing process.</p>
+
+                        <p>Across the country, MEP engineers work in various key industry roles; so let us look at the career scopes after such a course from a reputed institute in India and beyond:</p>
+                        <ul>
+                            <li>Regular Construction</li>
+                            <li>Hospitals and Laboratories</li>
+                            <li>Aviation Industry</li>
+                            <li>Petro Chemical Industry</li>
+                            <li>Residential Complexes and shopping Malls</li>
+                        </ul>
+                         <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Mechanical Engineering<br>
+                            Duration: 3 months</b></h5>
+                        </div>
+                   </div>
+               </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="panel panel-default">
+            <div class="panel-heading wow slideInLeft" role="tab" id="headingfour">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                       <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>NDT Level 2</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour">
+                <div class="panel-body">
+                    
+                    <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/Mech (4).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                    <p>Non-destructive testing(NDT) is a wide group of analysis techniques used in science and technology industry to evaluate the properties of a material, component or system without causing damage. The terms non-destructive examination (NDE), non-destructive inspection (NDI), and non-destructive evaluation (NDE) are also commonly used to describe this technology. NDT is commonly used in forensic engineering, mechanical engineering, petroleum engineering, electrical engineering, civil engineering, systems engineering, aeronautical engineering, medicine, and art. Analyzing and documenting a non-destructive failure mode can also be accomplished using a high-speed camera recording continuously (movie-loop) until the failure is detected.</p>
+
+                    <p>Detecting the failure can be accomplished using a sound detector or stress gauge which produces a signal to trigger the high-speed camera. These high-speed cameras have advanced recording modes to capture some non-destructive failures. After the failure the high-speed camera will stop recording. The capture images can be played back in slow motion showing precisely what happen before, during and after the non-destructive event, image by image.</p>
+
+                    <p>NDT is used in a variety of settings that covers a wide range of industrial activity, with new NDT methods and applications, being continuously developed. Non-destructive testing methods are routinely applied in industries where a failure of a component would cause significant hazard or economic loss, such as in transportation, pressure vessels, building structures, piping, and hoisting equipment.</p>
+
+                     <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Mechanical Engineering<br>
+                            Duration: 25 Days</b></h5>
+
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="panel panel-default">
+            <div class="panel-heading wow slideInRight" role="tab" id="headingfive">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                        <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>Oil and Gas Technology</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapsefive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfive">
+                <div class="panel-body">
+                    <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/Mech (7).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                        <p>Oil and gas engineering is generally course that prepares students for careers within the diverse field of engineering and possible licensure. This course provides a basic understanding of how oil and gas is extracted, refined and made suitable for use. We provide the technical understanding necessary to work in an extraction plant or a refinery. Oil and gas engineers research, develop and use equipment to safely drill into oil reservoirs and extract oil. Engineers may work in office buildings, labs, industrial plants or on site. Oil and gas engineers typically hold a bachelor's degree in an engineering field and a license. These engineers may work in the exploration and extraction process or for equipment manufacturers. Four careers included in this field are: drilling engineers, production engineers, reservoir engineers, and sales engineers.</p>
+
+                        <center><p style="size: 30px"><b><i>DRILLING ENGINEERS</i></b></p></center>
+
+                        <p>Drilling engineers use aerial reconnaissance, magnetometers and seismic surveys to locate oil and gas reservoirs. These professionals specify the appropriate equipment and materials used in order to ensure safe, cost-efficient and environmentally conscious drilling. Duties include estimating potential costs and risks, designing schematics and reviewing performance.</p>
+
+
+                        <center><p style="size: 30px"><b><i>PRODUCTION ENGINEERS</i></b></p></center>
+
+                        <p>Production engineers use their expertise to handle daily operations, specifically developing the best strategy to extract petroleum while maximizing profits and lowering operating expenses. Engineers take samples of reservoir rock, monitor production and ascertain the effect of production on the reservoir. These professionals might also be responsible for working with third parties, such as service companies and regulatory agencies.</p>
+
+
+                        <center><p style="size: 30px"><b><i>RESERVOIR ENGINEERS</i></b></p></center>
+
+                        <p>Reservoir engineers use advanced computer and mathematical models to predict future production. These professionals use geological data and reservoir simulation studies to forecast how much oil can be extracted. Other duties include analyzing pressure, predicting water flood and implementing petrophysical studies to maximize the value of exploration.</p>
+
+
+                        <center><p style="size: 30px"><b><i>SALES ENGINEERS</i></b></p></center>
+
+                        <p>Sales engineers call on prospective clients to present new technology and equipment in exploration and extraction. These professionals work with area or regional managers to develop new accounts, as well as with existing customers to troubleshoot problems.</p>
+
+                        <p>Due to steady growth, job prospects should be good for qualified engineers in the oil and gas industries. While production, drilling, and reservoir engineers need to rely on comprehensive technical knowledge, sales engineers also need to be able to communicate effectively with clients.</p>
+                        
+                        <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Mechanical Engineering<br>
+                            Duration: 6 months</b></h5>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+          </div>
+
+          <div class="col-sm-4" style="z-index: -5;">
+              <div>
+                  <center><img src="images/pics (4).jpeg" style=" width: 300px;box-shadow: 1px 1px 5px 1px #333;box-sizing: border-box;margin-bottom: 10px;"></center>
+              </div>
+          </div>
+
+      </div>
+
+      <div class="row">
+          <div class="col-sm-4" style="z-index: -5;">
+              <div>
+                  <center><img src="images/pics (2).jpeg" style=" width: 300px;box-shadow: 1px 1px 5px 1px #333;box-sizing: border-box;margin-bottom: 10px;"></center>
+              </div>
+          </div>
+          <div class="col-sm-8">
+                     <div class="panel panel-default">
+            <div class="panel-heading wow slideInLeft" role="tab" id="headingsix">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                       <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>Petroleum Engineering</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapsesix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingsix">
+                <div class="panel-body">
+                    <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/Mech (5).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                        <p>Petroleum engineering is a field of engineering concerned with the activities related to the production of hydrocarbons, which can be either crude oil or natural gas.Exploration and production are deemed to fall within the upstream sector of the oil and gas industry. Exploration, by earth scientists, and petroleum engineering are the oil and gas industry's two main subsurface disciplines, which focus on maximizing economic recovery of hydrocarbons from subsurface reservoirs. Petroleum geology and geophysics focus on provision of a static description of the hydrocarbon reservoir rock, while petroleum engineering focuses on estimation of the recoverable volume of this resource using a detailed understanding of the physical behavior of oil, water and gas within porous rock at very high pressure.</p>
+
+                        <p>The combined efforts of geologists and petroleum engineers throughout the life of a hydrocarbon accumulation determine the way in which a reservoir is developed and depleted, and usually they have the highest impact on field economics. Petroleum engineering requires a good knowledge of many other related disciplines, such as geophysics, petroleum geology, formation evaluation (well logging), drilling, economics, reservoir simulation, reservoir engineering, well engineering, artificial lift systems, completions and petroleum production engineering.</p>
+
+                        <p>Petroleum engineers divide themselves into several types:</p>
+
+                        <ul>
+                            <li>
+                                Reservoir Engineers: work to optimize production of oil and gas via proper placement, production rates, and enhanced oil recovery techniques.
+                            </li>
+                            <li>
+                                Drilling Engineers: manage the technical aspects of drilling exploratory, production and injection wells.
+                            </li>
+                            <li>
+                                Completion Engineers: (also known as subsurface engineers) work to design and oversee the implementation of techniques aimed at ensuring wells are drilled stably and with the maximum opportunity for oil and gas production.
+                            </li>
+                            <li>
+                                Production Engineers: manage the interface between the reservoir and the well, including perforations, sand control, downhole flow control, and downhole monitoring equipment; evaluate artificial lift methods; and select surface equipment that separates the produced fluids (oil, natural gas, and water).
+                            </li>
+                        </ul>
+                        <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Mechanical Engineering<br>
+                            Duration: 6 months</b></h5>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="panel panel-default">
+            <div class="panel-heading wow slideInRight" role="tab" id="headingseven">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                        <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>Piping and Pipeline Engineering</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseseven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingseven">
+                <div class="panel-body">
+                     <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/Mech (2).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                        <p>The oil or gas extracted from wells is transported through pipelines. Piping is crucial for transport of fluid from one equipment to another in any process plant. There are many aspects to piping and it can be a daunting and time consuming task to understand how everything fits together. This course provides a broad overview of piping engineering from designing to construction. Due to ever rising demand in oil and gas through out the world different companies are trying to stretch as much as they can to meet the requirements. Hence, the need for technically viable engineers is increasing day by day. Keeping in mind this program is designed to provide a broad overview of onshore as well as subsea pipeline engineering from designing to construction.</p>
+
+                        <p>Through this course you gain:</p>
+                        <ul>
+                            <li>A general overview of onshore and subsea pipeline engineering</li>
+                        <li>An awareness of the processes</li>
+                        <li>An awareness of issues involved with designing, procurement and construction</li>
+                        <li>An awareness of the materials and equipment used</li>
+                        <li>An understanding of industry terms and acronyms</li>
+                        </ul>
+
+                        <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Mechanical Engineering<br>
+                            Duration: 6 months</b></h5>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="panel panel-default">
+            <div class="panel-heading wow slideInLeft" role="tab" id="headingeight">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                        <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>Production Engineering</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseeight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingeight">
+                <div class="panel-body">
+                    <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/Mech (8).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                       <p>Production engineering is a combination of manufacturing technology, engineering sciences with management science. A production engineer typically has a wide knowledge of engineering practices and is aware of the management challenges related to production. The goal is to accomplish the production process in the smoothest, most-judicious and most-economic way. Production engineering encompasses the application of castings, machining processing, joining processes, metal cutting tool design, metrology, machine tools, machining systems, automation, jigs and fixtures, die and mould design, material science, design of automobile parts, and machine designing and manufacturing. Production engineering also overlaps substantially with manufacturing engineering and industrial engineering. The names are often interchangeable.</p>
+
+                        <p>The production engineer possesses a wide set of skills, competences and attitudes based on market and scientific knowledge. These abilities are fundamental for the performance of coordinating and integrating professionals of multidisciplinary teams. The production engineer should be able to:</p>
+                        <ul>
+                            <li>
+                                Scale and integrate resources.
+                            </li>
+                            <li>Make proper use of math and statistics.</li>
+                         <li>Design, implement and refine products, services, processes and systems.</li>                      
+                         <li>Predict and analyze the demand.</li>
+                         <li>Incorporate concepts and quality techniques.</li>
+                         <li>Stay up-to-date with technological developments.</li>
+                         <li>Understand the relation between production systems and the environment.</li>
+                         <li>Manage and optimize flow</li>
+                        </ul>
+                        <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Mechanical Engineering<br>
+                            Duration: 6 months</b></h5>
+                    </div>
+                   </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="panel panel-default">
+            <div class="panel-heading wow slideInRight" role="tab" id="headingnine">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                       <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>QA/QC Engineering</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapsenine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingnine">
+                <div class="panel-body">
+                    <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/Mech (9).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                        <p>QA/QC is the combination of quality assurance, the process or set of processes used to measure and assure the quality of a product, and quality control, the process of ensuring products and services meet consumer expectations.Quality assurance is process oriented and focuses on defect prevention, while quality control is product oriented and focuses on defect identification.The term "control", however, is used to describe the fifth phase of the Define, Measure, Analyze, Improve, Control (DMAIC) model. DMAIC is a data-driven quality strategy used to improve processes.</p>
+
+                        <p>The terms "quality assurance" and "quality control" are often used interchangeably to refer to ways of ensuring the quality of a service or product.For instance, the term "assurance" is often used as follows: Implementation of inspection and structured testing as a measure of quality assurance in a television set software project at Philips Semiconductors is described.</p>
+
+                        <p>Quality control, or QC for short, is a process by which entities review the quality of all factors involved in production.This approach places an emphasis on three aspects:</p>
+                        <ul>
+                            <li>
+                                Elements such as controls, job management, defined and well managed processes,performance and integrity criteria, and identification of records.
+                            </li>
+                            <li>
+                                Competence, such as knowledge, skills, experience, and qualifications.
+                            </li>
+                            <li>
+                                Soft elements, such as personnel, integrity, confidence, organizational culture, motivation, team spirit, and quality relationships.
+                            </li>
+                        </ul>
+                        <p>Inspection is a major component of quality control, where physical product is examined visually (or the end results of a service are analyzed). Product inspectors will be provided with lists and descriptions of unacceptable product defects such as cracks or surface blemishes.</p>
+                         <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Mechanical Engineering<br>
+                            Duration: 15 Days</b></h5>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="panel panel-default">
+            <div class="panel-heading wow slideInLeft" role="tab" id="headingten">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseten" aria-expanded="false" aria-controls="collapseten">
+                        <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                        <h4 style="letter-spacing: 2px;font-family: tahoma;color: #333;"><b>Welding Inspection</b></h4>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseten" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingten">
+                <div class="panel-body">
+                    <div class="row">
+                    <div class="col-sm-12">
+                        <img src="images/Mech (10).jpeg" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-12">
+                    <div class="container" id="text-container">
+                        <hr>
+                        <p>Weld quality assurance is the use of technological methods and actions to test or assure the quality of welds, and secondarily to confirm the presence, location and coverage of welds.In manufacturing, welds are used to join two or more metal surfaces. Because these connections may encounter loads and fatigue during product lifetime, there is a chance they may fail if not created to proper specification.Methods of weld testing and analysis are used to assure the quality and correctness of the weld after it is completed. This term generally refers to testing and analysis focused on the quality and strength of the weld, but may refer to technological actions to check for the presence, position and extent of welds.These are divided into destructive and non-destructive methods.</p>
+
+                        <p>A few examples of destructive testing include macro etch testing, fillet-weld break tests, transverse tension tests, and guided bend tests.Other destructive methods include acid etch testing, back bend testing, tensile strength break testing, nick break testing, and free bend testing.</p>
+
+                        <center><p style="size: 30px"><b><i>INDUSTRIAL APPLICATIONS</i></b></p></center>
+
+                        <p>SIP provides the basis for the WeldPrint system, which consists of a front-end interface and software based on the SIP engine and relies on electrical signals alone. It is designed to be non-intrusive and sufficiently robust to withstand harsh industrial welding environments. The first major purchaser of the technology,provided feedback that allowed the system to be refined in ways that increased its industrial and commercial value. Improvements in the algorithms, including multiple parameter optimization with a server network, have led to an order-of-magnitude improvement in fault-detection performance over the past five years.</p>
+
+                        <h5 style="color: #1478ce;text-align: center;"><b>Eligibility: BTech/BE/Diploma in Mechanical Engineering<br>
+                            Duration: 6 months</b></h5>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+          </div>
+      </div>
+       
+
+        
+    </div><!-- panel-group -->
+    
+    
+</div><!-- container -->
+
+     
+            <!--==========================
+  Footer
+============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="copyright">
+            &copy; Copyright <strong><span style="color: #1478ce;">TechKshetra</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+             <a href="#"><img src="images/Techlogo2.png" alt="" style="width: 50px;"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- #footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+        /*******************************
+        * ACCORDION WITH TOGGLE ICONS
+        *******************************/
+        function toggleIcon(e) {
+            $(e.target)
+                .prev('.panel-heading')
+                .find(".more-less")
+                .toggleClass('glyphicon-chevron-up glyphicon-chevron-down');
+        }
+        $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+        $('.panel-group').on('shown.bs.collapse', toggleIcon);
+    </script>
+
+</body>
+</html>
